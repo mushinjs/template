@@ -1,0 +1,14 @@
+{
+  "name": "@mushinjs/template",
+  "version": "0.1.0",
+  "description": "A template for Mushin.js",
+  "private": true,
+  "scripts": {
+    "build": "pnpm -r --no-bail build",
+    "dev": "pnpm -r --no-bail dev",
+    "start": "mushin start"
+  },
+  "keywords": [],
+  "author": "Setobox <setoboxes@gmail.com>",
+  "license": "MIT"
+}
