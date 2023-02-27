@@ -1,14 +1,16 @@
 {
-  "name": "@mushinjs/template",
-  "version": "0.1.0",
-  "description": "A template for Mushin.js",
+  "name": "mushin-app",
   "private": true,
   "scripts": {
-    "build": "pnpm -r --no-bail build",
-    "dev": "pnpm -r --no-bail dev",
-    "start": "mushin start"
+    "start": "mushin start",
+    "mushin": "mushin-scripts",
+    "new": "mushin new"
   },
-  "keywords": [],
-  "author": "Setobox <setoboxes@gmail.com>",
-  "license": "MIT"
+  "peerDependencies": {
+    "mushin": "*"
+  },
+  "devDependencies": {
+    "mushin": "*",
+    "mushin-scripts": "*"
+  }
 }
